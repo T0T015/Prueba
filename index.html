@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixar Sinfónico - Invitación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Fondo animado -->
+    <div class="background">
+        <div class="particles"></div>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Sobre cerrado -->
+        <div class="envelope" id="envelope">
+            <div class="flap"></div>
+            <button id="openButton">Abrir</button>
+        </div>
+
+        <!-- Contenido de la invitación -->
+        <div class="invitation hidden" id="invitation">
+            <h1>PIXAR</h1>
+            <h2>SINFÓNICO</h2>
+            <p><strong>Fecha:</strong> 29 de diciembre de 2024</p>
+            <p><strong>Hora:</strong> 8:00 PM</p>
+            <p><strong>Lugar:</strong> Teatro Nacional</p>
+            <p class="personal-message">Te espero en la estación del metropolitano de Javier Prado para recogerte.</p>
+            <button id="closeButton">Cerrar</button>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" src="pixar-theme_1.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
